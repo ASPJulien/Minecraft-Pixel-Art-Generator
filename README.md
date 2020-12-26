@@ -12,7 +12,7 @@
   - Select your image with the button provided
   - Select your Minecraft's save with the button provided
   - Generate
-  - Do `/gamerule maxCommandChainLength 1000000`, `/reload`, and `/function pixelart:pixelart`
+  - Do `/datapack enable pixelart`, `/gamerule maxCommandChainLength 1000000`, `/reload`, and `/function pixelart:pixelart`
 
 #### Be careful !
 One pixel = One Block !
