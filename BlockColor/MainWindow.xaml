@@ -1,0 +1,28 @@
+﻿<Window x:Class="BlockColor.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BlockColor"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="325" Width="620" ResizeMode="NoResize">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="353*"/>
+            <ColumnDefinition Width="43*"/>
+        </Grid.ColumnDefinitions>
+        <Label Content="Minecraft Pixel-Art Generator" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.579,0.5" Height="43" Width="320" FontSize="24"/>
+        <Image Name="image" HorizontalAlignment="Left" Height="226" Margin="357,29,0,0" VerticalAlignment="Top" Width="226" Grid.ColumnSpan="2"/>
+        <Button HorizontalAlignment="Left" Margin="52,80,0,0" VerticalAlignment="Top" Width="199" Click="Image_Button_Click">
+            <Label Name="ButtonImageText" Content="Please choose your image&#xD;&#xA;" HorizontalAlignment="Left" VerticalAlignment="Top" Height="28"/>
+        </Button>
+        <Button HorizontalAlignment="Left" Margin="52,117,0,0" VerticalAlignment="Top" Width="199" Click="Folder_Button_Click">
+            <Label x:Name="ButtonFolderText" Content="Please choose your world folder&#xD;&#xA;&#xA;" HorizontalAlignment="Left" VerticalAlignment="Top" Height="28"/>
+        </Button>
+        <Button HorizontalAlignment="Left" Margin="52,205,0,0" VerticalAlignment="Top" Width="237" Click="Generate_Button_Click" Height="50">
+            <Label Content="Generate !&#xD;&#xA;" FontSize="20" Height="36" Width="104"/>
+        </Button>
+        <ProgressBar Name="ProgressBar1" HorizontalAlignment="Left" Height="10" Margin="52,190,0,0" VerticalAlignment="Top" Width="237" IsIndeterminate="False"/>
+
+    </Grid>
+</Window>
