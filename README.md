@@ -35,4 +35,5 @@ This App was made in C#, .NET Framework 4.7.2, it uses WPF.
 
 ----
 Licence : MIT
+
 From an original idea of @Moreo18
