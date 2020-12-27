@@ -24,6 +24,7 @@ namespace BlockColor
 
         public static string ImagePath;
         public static string FolderPath;
+        public static bool needResize = false;
 
         public MainWindow()
         {
@@ -62,10 +63,20 @@ namespace BlockColor
         {
             if (ImagePath != null || FolderPath != null)
             {
-                Program.GeneratePixelArt(ImagePath, FolderPath);    
+                Program.GeneratePixelArt(ImagePath, FolderPath, Version.SelectedIndex, (bool)ResizeBox.IsChecked);    
             }
             else
                 System.Windows.MessageBox.Show("Please select an image and a folder");
+        }
+
+        private void ComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            
+        }
+
+        private void CheckBox_Checked(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }

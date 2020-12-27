@@ -22,7 +22,12 @@
         <Button HorizontalAlignment="Left" Margin="52,205,0,0" VerticalAlignment="Top" Width="237" Click="Generate_Button_Click" Height="50">
             <Label Content="Generate !&#xD;&#xA;" FontSize="20" Height="36" Width="104"/>
         </Button>
-        <ProgressBar Name="ProgressBar1" HorizontalAlignment="Left" Height="10" Margin="52,190,0,0" VerticalAlignment="Top" Width="237" IsIndeterminate="False"/>
+        <ComboBox Name="Version" HorizontalAlignment="Left" Margin="52,178,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="ComboBox_SelectionChanged" SelectedIndex="2">
+            <ComboBoxItem Content="&gt;1.13"/>
+            <ComboBoxItem Content="&gt;1.15"/>
+            <ComboBoxItem Content="&gt;1.16.2"/> >
+        </ComboBox>
+        <CheckBox x:Name="ResizeBox" Content="Resize" HorizontalAlignment="Left" Margin="198,182,0,0" VerticalAlignment="Top" Checked="CheckBox_Checked"/>
 
     </Grid>
 </Window>
