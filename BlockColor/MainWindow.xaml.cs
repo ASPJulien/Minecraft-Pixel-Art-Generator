@@ -28,6 +28,8 @@ namespace BlockColor
         public MainWindow()
         {
             InitializeComponent();
+            Uri fileUri = new Uri("/image-preview.png", UriKind.Relative);
+            image.Source = new BitmapImage(fileUri);
         }
 
         public void Image_Button_Click(object sender, RoutedEventArgs e)

@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:BlockColor"
         mc:Ignorable="d"
-        Title="MainWindow" Height="325" Width="620" ResizeMode="NoResize">
+        Title="Minecraft Pixel-Art Generator" Height="325" Width="620" ResizeMode="NoResize">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="353*"/>

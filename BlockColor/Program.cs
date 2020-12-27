@@ -1,10 +1,10 @@
-﻿using System.Drawing;
+﻿
+using System.Drawing;
 using System.Collections.Generic;
 using System.Diagnostics;
 using BlockColor;
 using System.Windows;
 using System;
-using System.Threading.Tasks;
 
 namespace MinecraftBlockColor
 {
@@ -23,11 +23,11 @@ namespace MinecraftBlockColor
                         commands.Add(new SetBlock(Block(pixel.R,pixel.G,pixel.B), i, j).Command);
                     }
                 }
-                System.IO.File.WriteAllLines(@dataPackPath + "\\file.mcfunction", commands);
+                System.IO.File.WriteAllLines(@dataPackPath, commands);
             }
-            catch (Exception e)
+            catch
             {
-                MessageBox.Show(e.ToString());
+                MessageBox.Show("Error, please retry");
                 throw;
             }
         }
