@@ -6,7 +6,7 @@
   - Very fast Pixel-Art production
   - Looks like it's dark magic 👀
 
-![](https://i.imgur.com/TVlyOm1.png)
+![](https://i.imgur.com/PxQsMuo.png)
 # How to use ?
 
   - Select your image with the button provided
@@ -17,7 +17,7 @@
 #### Be careful !
 One pixel = One Block !
 The maximum tested is 1280\*720, and it took more than 10 minutes to be placed by minecraft !
-The recommanded size is 250\*250 (you can resize your image with Paint)
+The Resize option only divise the resolution by 2
 
 
 
@@ -29,7 +29,7 @@ This App was made in C#, .NET Framework 4.7.2, it uses WPF.
 
 ##### Todos
 
- - Compress image to 500\*500
+ - Compress commands
  - Add a better UI
 
 
