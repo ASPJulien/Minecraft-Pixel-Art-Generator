@@ -76,7 +76,7 @@ namespace BlockColor
 
         private void CheckBox_Checked(object sender, RoutedEventArgs e)
         {
-
+                
         }
     }
 }
