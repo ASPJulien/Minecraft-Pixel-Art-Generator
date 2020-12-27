@@ -7,7 +7,7 @@
   - Looks like it's dark magic 👀
 
 ![](https://i.imgur.com/PxQsMuo.png)
-![](https://media.discordapp.net/attachments/757256229394579577/792460807790919680/POG.png?size=600)
+![](https://i.imgur.com/dHISlV2.png)
 
 # How to use ?
 
