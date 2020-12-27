@@ -7,6 +7,8 @@
   - Looks like it's dark magic 👀
 
 ![](https://i.imgur.com/PxQsMuo.png)
+![](https://i.imgur.com/dHISlV2.png)
+
 # How to use ?
 
   - Select your image with the button provided
