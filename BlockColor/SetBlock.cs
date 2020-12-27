@@ -13,7 +13,7 @@ namespace MinecraftBlockColor
             Name = _name;
             I = _i;
             J = _j;
-            Command = "setblock " + "~" + I + " ~-100" + " ~" + J + " " + Name;
+            Command = "setblock " + "~" + I + " ~1" + " ~" + J + " " + Name;
         }
     }
 }
