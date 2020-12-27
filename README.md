@@ -17,7 +17,7 @@
 #### Be careful !
 One pixel = One Block !
 The maximum tested is 1280\*720, and it took more than 10 minutes to be placed by minecraft !
-The recommanded size is 250\*250 (you can resize your image with Paint)
+The Resize option only divise the resolution by 2
 
 
 
