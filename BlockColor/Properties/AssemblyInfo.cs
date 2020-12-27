@@ -7,12 +7,12 @@ using System.Windows;
 // Les informations générales relatives à un assembly dépendent de
 // l'ensemble d'attributs suivant. Pour modifier les informations
 // associées à un assembly.
-[assembly: AssemblyTitle("BlockColor")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyTitle("Minecraft-PixelArt-Gen")]
+[assembly: AssemblyDescription("Generate a Minecraft PixelArt from an image")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("BlockColor")]
-[assembly: AssemblyCopyright("Copyright ©  2020")]
+[assembly: AssemblyProduct("Minecraft-PixelArt-Gen")]
+[assembly: AssemblyCopyright("Copyright ©  2020 Julien Ropers")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
