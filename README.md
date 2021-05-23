@@ -2,9 +2,6 @@
 
  Minecraft-Pixel-Art-Generator can generate pixels art from images into a Minecraft datapack.
 
-  - A clean interface
-  - Very fast Pixel-Art production
-  - Looks like it's dark magic 👀
 
 ![](https://i.imgur.com/PxQsMuo.png)
 ![](https://i.imgur.com/dHISlV2.png)
